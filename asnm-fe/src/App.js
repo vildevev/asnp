@@ -8,11 +8,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Awkward Silence No More</h1>
+        <h4>Coming Soon</h4>
         {
           displayQuestions && (
             <div dangerouslySetInnerHTML={{__html: questions}} />
           )
         }
+        <p>Created by Vilde Vevatne</p>
       </header>
     </div>
   );
